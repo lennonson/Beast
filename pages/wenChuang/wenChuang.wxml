@@ -1,0 +1,29 @@
+<!--pages/wenChuang.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="文创商品" back="{{false}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="main">
+	<!-- 左侧 -->
+	<scroll-view scroll-y="true" scroll-with-animation="true" class="left" style="height:{{windowHeight}}px">
+    <view class="wenChuang-container {{currentIndex==index ? 'on' : ''}}" wx:for="{{categories}}" wx:key="index"bindtap="clickWenChuang" data-index="{{index}}" data-id="{{item.id}}">
+      <text class="wenChuang-name {{currentIndex==index ? 'on' : ''}}">{{item.name}}</text>
+    </view>
+	</scroll-view>
+
+	<!-- 右侧 -->
+	<scroll-view scroll-y="true" scroll-with-animation="true" scroll-into-view="{{toView}}" class="right"style="height: {{windowHeight}}px" bindscroll="rightScroll">
+    <view class="wenChuang-list" id="{{item.id}}">
+      <view class="header">{{categories[currentIndex].name}}</view>
+      <view class="goods-list">
+        <block wx:for="{{categories[currentIndex].goods}}" wx:key="goodsIndex"wx:for-item="goodsItem">
+          <view class="goods-list-item">
+            <image src="{{goodsItem.image}}" mode="aspectFill"></image>
+            <text style="color: black;">{{goodsItem.name}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+	</scroll-view>
+</view>

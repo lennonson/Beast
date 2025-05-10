@@ -1,0 +1,38 @@
+/**app.wxss**/
+@font-face {
+  font-family:'ZhongSong';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/font-family-compressed/HanYiZhongSongJian-1compressed.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'FangSong';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/HanYiFangSongJian-1.ttf') format('truetype');
+}
+/* @font-face {
+  font-family: 'FangSong';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/font-family-compressed/HanYiFangSongJian-comp.ttf') format('truetype');
+} */
+@font-face {
+  font-family:'sanJiHua';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/font-family-compressed/SanJiHuaChaoTi-Cu-2.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cuFangSong';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/font-family-compressed/HanYiCuFangSongJian-1compressed.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'kaiTi';
+  src: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/src/font-family-compressed/HanYiKaiTiJian-1compressed.ttf') format('truetype');
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+view {
+  box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="兽趣互动" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="container">
+  <view class="menu-box {{show_menu && 'active'}}">
+    <block wx:for="{{menu}}" wx:key="menu">
+      <view style="--n:{{index}};--deg:{{360/ menu.length}}deg" class="menu-box-item {{currIndex===index && 'active'}}" catchtap="clickActive" data-index="{{index}}">
+        <!-- 替换icon为image，并设置src属性 -->
+        <image class="image-style" src="{{item.imageSrc}}"></image> 
+      </view>
+    </block>
+    <view class="menu-box-active" style="--n:{{currIndex}};--deg:{{360/ menu.length}}deg"></view>
+  </view>
+  <view class="menu-add-box {{show_menu && 'active'}}" catchtap="showMenu">
+    <!-- 替换icon为image，并设置src属性 -->
+    <image class="image-add-style" src="{{menu_add_imageSrc}}"></image> 
+  </view>
+
+  <!-- 新增用于全屏显示图片的view -->
+  <view class="full-screen-image {{fullScreenImageVisible? 'active' : ''}}" catchtap="closeFullScreenImage">
+    <image class="full-screen-image-content"mode="aspectFill" src="{{currentFullScreenImageSrc}}"></image>
+  </view>
+</view>

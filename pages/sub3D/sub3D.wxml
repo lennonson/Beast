@@ -1,0 +1,38 @@
+<!--pages/sub3D/sub3D.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="3D展示" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view
+   id="scrollview"
+   class="page"
+   type="custom"
+   scroll-y
+   scroll-with-animation
+   show-scrollbar="{{false}}"
+   >
+    <view class="titleContainer">
+      <view class="title">{{title}}</view>
+    </view>
+    <view class="videoContainer">
+      <video class="videoPlayer"
+        controls="{{false}}"
+        autoplay="true" object-fit="cover"
+        enable-progress-gesture="{{false}}"
+        loop="true"	enable-play-gesture="{{true}}"
+        src="{{videoSrc}}"
+        >
+      </video>
+    </view>
+  <scroll-view class="controls" scroll-x type="custom">
+    <block wx:for="{{feed}}"wx:for-item="item"wx:for-index="index">
+      <view class="grid"data-index="{{index}}"bindtap="updateContent">
+        <image class="img"src="{{item.img}}"mode="aspectFill"></image>
+        <view class="name">{{item.name}}</view>
+      </view>
+    </block>
+  </scroll-view>
+  </scroll-view>
+</view>

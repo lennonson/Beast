@@ -1,0 +1,33 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="购物车" back="{{false}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view class="page"scroll-y="true" scroll-with-animation="true" >
+    <block wx:for="{{cartItems}}" wx:key="id">
+      <view class="cart-item">
+        <view class="Btn {{item.selected ? 'selected' : ''}}" bindtap="chooseGoods" data-id="{{item.id}}"></view>
+        <image class="item-image" src="{{item.imageUrl}}" mode="aspectFill"></image>
+        <view class="item-info">
+          <text class="item-title">{{item.title}}</text>
+          <view class="secondary">
+            <text class="item-price">¥{{item.price}}</text>
+            <view class="control">
+              <view class="reduce-btn" bindtap="decreaseQuantity"   data-id="{{item.id}}">-</view>
+              <text class="quantity">{{item.quantity}}</text>
+              <view class="add-btn" bindtap="increaseQuantity" data-id="{{item.id}}">+</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+
+  </scroll-view>
+  <view class="checkout">
+    <view class="cart-summary">
+    共 {{totalCount}} 件商品，总计：¥{{totalPrice}}
+    </view>
+    <view class="checkout-btn" bindtap="onCheckout">去结算</view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<view class="outer">
+  <!-- AR 画面组件 -->
+  <xr-start class="xr"
+    disable-scroll
+    id="main-frame"
+    width="{{renderWidth}}"
+    height="{{renderHeight}}"
+    style="width:{{width}}rpx; height:{{height}}rpx;"
+  />
+  
+  <view class="controller">
+    <scroll-view class="bar" scroll-x="true" type="custom">
+      <block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+        <view class="grid" data-index="{{index}}" bindtap="updateContent">
+          <image class="img" src="{{item.src}}"></image>
+          <view class="name">{{item.name}}</view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

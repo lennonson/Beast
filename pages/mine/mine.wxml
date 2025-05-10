@@ -1,0 +1,61 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="个人中心" back="{{false}}">
+  </navigation-bar>
+</page-meta>
+
+<scroll-view class="outer" scroll-y="true" scroll-with-animation="true"enable-flex="{{true}}">
+  <view class='amountBg'>
+    <image class="img" mode="scaleToFill"  src="{{avatar}}"></image>
+    <view class='account'>
+      <view wx:if="{{nickname}}" class="name"bindtap="cancel">{{nickname}}</view>
+      <view wx:if="{{!nickname}}"class="name" bindtap="loginMine">登录/注册</view>
+      <view wx:if="{{!nickname}}" class='manage_text'>登录查看更多</view>
+    </view>
+  </view>
+
+  <view class='contain'>
+    <view class='item'>
+      <image class='icon' src='/icon/account.png'></image>
+      <view class='itemname'>账号与安全</view>
+    </view>
+    <view class='item'>
+      <image class='icon' src='/icon/message.png'></image>
+      <view class='itemname'>消息通知</view>
+    </view>
+
+    <view class='item'>
+      <image class='icon' src='/icon/help.png'></image>
+      <view class='itemname'>帮助与反馈</view>
+    </view>
+    <view class='item'>
+      <image class='icon' src='/icon/about.png'></image>
+      <view class='itemname'>兽护稷安</view>
+    </view>
+    <view class='item'>
+      <image class='icon' src='/icon/customer.png'></image>
+      <view class='itemname' bindtap="bindtap_icon4">人工客服</view>
+    </view>
+  </view>
+</scroll-view>
+
+<view class="popWindow"hidden="{{!logining}}">
+  <view class="popContent">
+    <view class="forward">申请获取您的头像、昵称</view>
+    <view class="content">
+      <input class="ipt_fix"disabled="true" placeholder="头像："/>
+      <view class="getContainer">
+        <image wx:if="{{filledHead}}" class="getHead"src="{{avatar}}"></image>
+        <button wx:else class="getHead"open-type="chooseAvatar"bindchooseavatar="getAvatar" ></button>
+      </view>
+    </view>
+    <view class="content">
+      <input class="ipt_fix" disabled="true"placeholder="昵称："/>
+      <input class="ipt" bindblur="getNick" type="nickname"placeholder="" />
+    </view>
+    <view class="control">
+      <view class="controlBtn" bindtap="cancel">取消</view>
+      <view class="controlBtn"style="background: rgb(7, 193, 96);" bindtap="confirm">确定</view>
+    </view>
+  </view>
+</view>
+

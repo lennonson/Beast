@@ -1,0 +1,292 @@
+/* pages/home/home.wxss */
+.nav-bar {
+  background-color: transparent;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  box-sizing: border-box;
+}
+.nav-left {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.nav-back {
+  width: 100vw;
+  height: 260rpx;
+  position: absolute; /* 修改为绝对定位 */
+  z-index: -1; 
+  backdrop-filter: blur(20px); /* 设置模糊效果 */
+  background-color: rgba(204, 197, 176, 0.7); /* 半透明背景 */
+}
+.nav-logo {
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+.nav-text {
+  margin: 7rpx 0 0 20rpx;
+  font-size: 40rpx;
+  color: #000000;
+  font-family:'sanJiHua', Times, serif;
+}
+
+.outer {
+  width: 100%;
+  overflow: scroll;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: rgba(236, 223, 198, 0.527);
+  box-sizing: border-box;
+}
+.searchContainer {
+  background-color: rgba(209, 194, 161, 0.308); 
+  height: 5vh;
+  margin: 195rpx 15px 12px 15px;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.searchContainer icon {
+  margin: 3px 15px 0 15px;
+}
+.searchContainer input {
+  width: 400rpx;
+  height: 40rpx;
+}
+
+.swiperContainer {
+  height: 30vh;
+  margin: 0 30rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.cover image{
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.pageContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+	align-items: center;
+  margin: 10rpx 0 0 0;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 16rpx; 
+  background-color: rgba(209, 194, 161, 0.308); 
+  z-index: -1;
+}
+.grid{
+	width: 16%;
+	height: 150rpx;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 12rpx;
+  z-index: 1;
+}
+.grid text {
+  position: absolute;
+  bottom: 2%;
+  font-size: 30rpx;
+  font-family: 'FangSong', Courier, monospace;
+}
+.grid image{
+  margin-top: 16rpx;
+	height: 88rpx;
+	width: 90rpx;
+}
+
+.encyclopedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 11rpx 0;
+}
+.title {
+  height: 100rpx;
+  margin: 10rpx 30rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'cuFangSong';
+}
+.headline {
+  font-size: 46rpx;
+  font-weight: 1000;
+  font-family: 'sanJiHua';
+}
+.more {
+  font-size: 32rpx;
+  text-align: right;
+  color: rgb(119, 78, 2);
+}
+.swiperEncyclopedia {
+  height: 28vh;
+}
+.elementEncyclopediaContainer {
+  box-sizing: border-box;
+  margin: 0 12rpx;
+  height: 100%;
+  border: solid;
+  border-color: rgb(146, 116, 33);
+  display: flex;
+  flex-direction: column;
+}
+.elementEncyclopediaContainer image {
+  height: 100%;
+}
+.horizonLine {
+  margin-top: 10px;
+  height: 1px;
+  border-bottom: solid;
+  border-color: rgba(143, 114, 19, 0.6);
+}
+.imgContainer {
+  padding: 14rpx;
+  height: 86%;
+  border-bottom: solid;
+  border-color: rgb(146, 116, 33);
+}
+.imgContainer image {
+  width: 100%;
+}
+.elementEncyclopediaContainer text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rpx;
+  font-family: 'FangSong';
+  font-weight: 1000;
+  font-size: 36rpx;
+  color: black;
+}
+.verticalLine {
+  border-left: solid;
+  width: 1px;
+  height: 40rpx;
+  margin: 6rpx 26rpx;
+  border-color: rgba(146, 146, 146, 0.4);
+}
+.notification {
+  margin: 16rpx 8rpx;
+  width: 100%;
+  height: 6vh;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.iconImg {
+  margin: 0 0 20px 0;
+}
+.iconText {
+  margin: 2px 0 0 0 ;
+  white-space: nowrap;
+  margin-left: 16px;
+  font-size: 30rpx;
+  font-family: 'cuFangSong', Courier, monospace;
+}
+.notificationSwiper {
+  width: 90%;
+  height: 100%;
+}
+.matterContainer {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.matter {
+  font-size: 30rpx;
+  font-family: 'cuFangSong', Courier, monospace;
+  margin-top: 4px;
+}
+
+.drawer {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+.pieces {
+  border-radius: 8px;
+  margin: 4px;
+  width: 44.8vw;
+  height: 65vw;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.piece_img {
+  width: 100%;
+  height: 75%;
+}
+.piece_txt {
+  display: flex;
+  padding: 8px 0 0 11px;
+  font-family:Georgia, 'cuFangSong', Times, serif;
+  font-weight: 500;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.piece_ctrl {
+  margin: 18rpx 0;
+  padding: 0 22rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+.price_RMB {
+  height: 15px;
+  width: 15px;
+}
+.cartBtn {
+  display: flex;
+}
+.addImg {
+  height: 20px;
+  width: 20px;
+}
+
+

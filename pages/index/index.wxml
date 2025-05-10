@@ -1,0 +1,81 @@
+<view class="page" bindtap="onPage">
+  <view class="search_container1">
+    <view class="search_box">
+      <view class="searchBtn Btn" bindtap="onSearch">
+        <icon type="search" size="18"></icon>
+      </view>
+
+      <input type="text" placeholder="搜索更多内容" class="search_input"bindconfirm="onSearch" 
+      bindinput="onInput"  value="{{searchQuery}}"/>
+
+      <view class="clearBtn Btn" bindtap="onClear">
+        <icon type="clear" size="18"></icon>
+      </view>
+    </view>
+
+    <view class="ans_container" style="height: {{ansHeight}}px;">
+      <block wx:for="{{ans}}" wx:key="index"wx:for-item="item">
+        <navigator url="/pages/contents/content?feedIndex={{item.index}}" open-type="navigate" class="options">
+          <text>{{item.brief}}</text>
+        </navigator>
+      </block>
+    </view>
+
+  </view>
+
+
+  <swiper class="swiper_container" indicator-dots="true" 
+  circular="true"  indicator-active-color="red" indicator-color="white" autoplay="true" interval="3000">
+  	<swiper-item>
+      <navigator url="/pages/contents/content?feedIndex=0" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src=""></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item> 
+      <navigator url="/pages/contents/content?feedIndex=1" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src=""></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item>  
+      <navigator url="/pages/contents/content?feedIndex=2" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src=""></image>
+      </navigator>
+  	</swiper-item>
+
+  	<swiper-item> 
+      <navigator url="/pages/contents/content?feedIndex=3" open-type="navigate"class="cover">
+  		  <image mode="aspectFill" class="img" src=""></image>
+      </navigator>
+  	</swiper-item>
+  </swiper>
+
+  <view class="list1switch">
+    <navigator url="/pages/list1/list1" open-type="navigate" class="grid1"> 
+      <image src=""></image>
+       简介
+    </navigator>
+
+    <navigator url="/pages/list2/list2" open-type="navigate" class="grid1">
+      <image src=""></image>
+       相关人物
+    </navigator>
+
+    <navigator url="/pages/list3/list3" open-type="navigate" class="grid1">
+      <image src=""></image>
+       兽的分类
+    </navigator>
+  </view>
+  <view class="list1switch">
+    <navigator url="/pages/list4/list4" open-type="navigate" class="grid1">
+      <image src=""></image>
+      兽脸DIY
+    </navigator>
+    <navigator url="/pages/list5/list5" open-type="navigate" class="grid1">
+      <image src=""></image>
+      知识问答
+    </navigator>
+  </view>
+
+</view>

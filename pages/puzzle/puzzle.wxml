@@ -1,0 +1,24 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="拼图" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view class="puzzle-game"enable-flex="true" scroll-y="true">
+      <view class="hint-image-container">
+          <view class="hint-image-title">提示图</view>
+          <image src="{{hintImage}}" mode="heightFix"></image>
+      </view>
+      <view class="puzzle-container">
+          <block wx:for="{{puzzlePieces}}"wx:for-item="item" wx:key="*this"wx:for-index="idx">
+              <view
+                  class="puzzle-piece {{item.id === (rows * cols - 1) ? 'empty-piece' : ''}}"
+                  style="width: {{pieceWidth}}px;height: {{pieceHeight}}px; background-image: {{item.id !== (rows * cols - 1) ? 'url(' + hintImage + ')' : 'none'}};background-position:-{{(item.col) * pieceWidth}}px -{{item.row * pieceHeight}}px; background-size: {{cols * pieceWidth}}px {{rows * pieceHeight}}px;"
+                  data-index="{{idx}}"
+                  bindtap="onPieceTap"
+              ></view>
+          </block>
+      </view>
+      <view class="moves">步数: {{moves}}</view>
+  </scroll-view>
+</view>

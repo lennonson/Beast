@@ -1,0 +1,23 @@
+<xr-scene ar-system="modes:Plane" bind:ready="handleReady">
+  <xr-assets bind:loaded="handleAssetsLoaded">
+    <xr-asset-load type="gltf" asset-id="anchor" src="https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/ar-plane-marker.glb" />
+    <!-- <xr-asset-load type="gltf" asset-id="miku" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/3Dmodels/gltf/%E9%9D%A2%E5%85%B71.gltf" /> -->
+    <xr-asset-load type="gltf" asset-id="pattern" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/3Dmodels/gltf/%E6%A2%85%E8%8A%B1%E9%B9%BF.glb"/>
+  </xr-assets>
+
+  <xr-light type="ambient" color="1 1 1" intensity="1" />
+  <xr-light type="directional" rotation="40 70 0" color="1 1 1" intensity="3" cast-shadow />
+
+  <xr-ar-tracker mode="Plane" node-id="anchorModel">
+    <xr-gltf model="anchor" scale="0.4 0.4 0.4"></xr-gltf>
+  </xr-ar-tracker>
+  <xr-node node-id="setitem" visible="false">
+    <xr-gltf model="pattern" anim-autoplay rotation="0 0 0"/>
+    <!-- <xr-mesh
+      position="0 0 0" scale="0.2 0.05 0.2" receive-shadow anim-keyframe="anim" anim-autoplay="clip:plane"
+      geometry="plane" uniforms="u_baseColorMap: pattern"
+    ></xr-mesh> -->
+  </xr-node>
+
+  <xr-camera clear-color="0.4 0.8 0.6 1" background="ar" is-ar-camera />
+</xr-scene>

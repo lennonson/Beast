@@ -1,0 +1,54 @@
+<!--pages/Inheritance/Inheritance.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="传承情况" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="page" bindtouchstart="onTouchStart" bindtouchend="onTouchEnd">
+  <view class="foreword animation" style="{{foreword}}">
+    <view class="coverContainer">
+      <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/Inheritance/Inheritance_cover1compressed.webp"></image>
+    </view>
+    <text class="content"style="margin-bottom: 170rpx">&nbsp;&nbsp;&nbsp;{{text[0].content}}</text>
+    <view class="arrow_up" bindtap="onArrowTap">
+      <image src="/icon/up.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <view class="matter animation"style="{{matter}}">
+    <view class="content"style="line-height: 1.6;width: 100% margin-left: 50rpx;">
+      <text style="line-height: 1;">
+        <span>清末民初的高跷走兽艺人为：</span><br/>
+        <span>&nbsp;&nbsp;杨玉智(1893——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;王新山(1882——?)；</span><br/>
+        <span>&nbsp;&nbsp;段光华(1880——?)，监生；</span><br/>
+        <span>&nbsp;&nbsp;王国梁(1882——?)，监生；</span><br/>
+        <span>&nbsp;&nbsp;段近勇(1885——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;段维新(1902——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;杨根法(1907——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;段廷元(1904——?)；</span><br/>
+        <span>&nbsp;&nbsp;王春普(1904——?)；</span><br/>
+        <span>&nbsp;&nbsp;柴东义(1880——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;王德娃(1885——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;杜子由(1886——?)，生员。</span><br/>
+      </text>
+      <text style="line-height: 1.6; margin-top: 20rpx;">&nbsp;&nbsp;因为年代较远并无确切的文字记录，这些传承人的表演状况不知其详。</text>
+    </view>
+    <view class="arrow_up" bindtap="onArrowTap">
+      <image src="/icon/up.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <scroll-view class="matter2 animation"style="{{matter2}}" type="custom"
+  enable-flex="true"style="margin-left: 20rpx"
+  scroll-y="true" bindscrolltoupper="uppered">
+    <view class="content">&nbsp;&nbsp;{{text[4].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[5].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[6].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[7].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[8].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[9].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[10].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[11].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[12].content}}</view>
+    <view class="content">&nbsp;&nbsp;{{text[13].content}}</view>
+  </scroll-view>
+</view>

@@ -1,0 +1,40 @@
+/* pages/search/search.wxss */
+.nav-bar {
+  position: fixed;
+  background-color: #977049;
+  z-index: 10;
+}
+.page {
+  background-color: rgba(236, 223, 198, 0.527);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.searchContainer {
+  background-color: rgba(209, 194, 161, 0.308); 
+  height: 5vh;
+  margin: 100px 15px 12px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+}
+.searchContainer icon {
+  margin: 3px 15px 0 15px;
+}
+.searchContainer input {
+  width: 200px;
+  height: 20px;
+}
+.prompt {
+  margin: 5px 15px;
+}
+.prompt text {
+  font-family: monospace;
+  font-size: 18px;
+}
+.imgContainer{
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+}

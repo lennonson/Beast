@@ -1,0 +1,21 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="拼图" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view class="game-select"enable-flex scroll-y="true">
+    <view class="title">游戏选关</view>
+    <view class="CoverContainer">
+      <block wx:for="{{images}}" wx:key="*this">
+          <image
+              src="{{item}}"
+              mode="widthFix"
+              class="game-level"
+              data-index="{{index}}"
+              bindtap="onImageSelect"
+          ></image>
+      </block>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,155 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="传承现状" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view  
+    class="page"
+    enable-flex="true" 
+    scroll-y
+    enhanced="true"
+    scroll-with-animation="true"
+    show-scrollbar="false"
+    type="custom"
+    enable-passive="true">
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第一节 高跷走兽的组织形式</view>
+      </sticky-header>
+      <view class="content">
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;阳城村的高跷走兽能传承保护三百年是因为阳城村建立了严格的组织制度。三百年来，村中的“巷”都是高跷走兽保存、表   演、传承的最基本单位。南北阳城在过去共有五个巷子。北阳城分西巷、东巷、南巷。南阳城分为东巷和西巷。除了北阳城村的西巷没有高跷走兽，  其 余四巷均有。鳌和麒麟在北阳城东巷，貅狼、独角兽在北阳城南巷。梅花鹿、黑狸虎、属于南阳城。各巷的巷主负责本巷包括高跷走兽在内的各 种演出 活动，包括确定演出人员、节目等。以巷为单位传承时，全巷人都会积极参与，出谋划策，出人、出力、出物，暗中鼓足劲与其他巷子竞  争，以显示本 巷走兽的精彩。</text>
+        <view class="inset">
+          <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status1.webp"mode="aspectFill"></image>
+          <view class="annotation">高跷走兽的精彩表演</view>
+        </view>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;巷主会在前一年腊月就张榜公布节目及参加者名单。如果当年高跷走兽表演者确实有事或是身体原因不能参加，那就需要 提 前声明，然后由巷主和其他高跷走兽艺人共同商量确定新的表演人选。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;阳城庙会的传承和保护制度历来就非常严格。阳城庙会的财物保护，是以巷为单位分班交替保管，有规矩、有制度，每年 正 月二十为交接日。交接时，两班人必须全部到场，不得缺席顶替，交班后双方签字为凭证。庙会使用的大件物品和保留社火节目，以各巷自身传  承为 主，比如走兽、抬阁（挂画、竹马)、八抬、自行车、鼓车的大鼓等，道具服装虽然统一保管但由各巷各负其责。每个节目都由传承人来负责社  火表演  中本节目所用的道具、服装、技术及挑选演员等，传承人的交替为自然淘汰。截至目前，村里东巷保护庙会财产和钱粮的清代“账匣子”还保  存到现在，  里面有清同治、光绪、民国等年代的账簿和称银子用的“铛子”现有东巷光绪二年新立规矩原稿《观音堂棚规矩序》：</text>
+        <text class="quote">&nbsp;&nbsp;&nbsp;&nbsp;合班公议举凡班中人等到正月二十交班之期，不论交班、接班者必须亲自到场。同桌接交，不准私自捏揣代替，所有使过神  灵  本银多寡，至日本利，要到桌面交办者。银要老曹，钱要清，接班者立地二亩，保要查银，如若本利不齐，保人查银种地。不能推辞是非，待人  过刻分  因。神事为重也，是为序。</text>
+        <text class="quote">&nbsp;&nbsp;&nbsp;&nbsp;光绪二年新立规矩，四班人公义。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;从该文稿可以了解到清末时高跷走兽组织的严格规矩，所有的账目都要当面交清，不允许有任何推辞和隐瞒，这种传承制 度 是由村民们共同议定，具有很强的村规民约似的约束力。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;同时，阳城村民们多年来对庙会社火活动养成了很强的保护意识。村民基本是以自觉保护为主。秘不外传的节目绝不外 传， 如走兽、背婆、挂画、八抬、行马等，每个节目都只有一至二人了解其制作技巧和绑扎技术。演出前常在室内或是僻静处秘密绑扎、装饰，完  成后才对 外亮相。正是这种以村中之巷为单位、严格保密的组织形式和保护传承制度，才确保了高跷走兽艺术形态的完整传承。</text>
+        <view class="inset">
+          <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status2.webp"mode="aspectFill"></image>
+          <view class="annotation">非遗进景区——高跷走兽在运城岚山根景区演出</view>
+        </view>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;这种组织形式和传承制度从清雍正年间一直延续到中华人民共和国成立后。在20世纪50年代农业生产合作社时期，农村的 管 理组织形式发生了根本变化，各村都成立了生产大队。据国家级传承人段铁成讲述：“从农业社时期划分生产大队，就成了一个队一个队了。村子 跟以  前有了许多变化，以前是每个巷子出一个走兽，现在村子盖了好多新房子，所有巷子都乱了。”高跷走兽的组织形式也由巷主负责制转变为大  队队长负 责制。由此，高跷走兽以“巷”为基本单位的组织形式和传承制度终止。兽头、兽身、锣鼓、服装、道具等都是生产大队的集体财产，由大 队干部指定专 人管理。以“巷为单位的演出方式转变为以生产大队为团体的演出。这种情况一直持续到20世纪末。虽然在1968年后大型社火节目几乎 停摆，但是高跷  走兽的组织形式并没有新的变化。</text>
+      </view>
+    </sticky-section>
+
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第二节 影响高跷走兽发展的因素</view>
+      </sticky-header>
+      <view class="content" style="margin-top: 50rpx;">
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;受“文化大革命”的影响，阳城村的大型庙会社火活动一度停滞。一直到2006年高跷走兽申报国家级非物质文化遗产项目成功 后，阳城村才重新成立组织机构，加强庙会文化保护，负责高跷走兽的保护、演出、培训和传承任务。但是，不可否认的是，高跷走兽的生存发展环境 发生了较大变化，传承发展面临着一些困境。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;一是庙会社火活动的减少。高跷走兽赖以生存的阳城庙会活动，规模大大缩小。以前社火表演规模大，表演时间长，参与人 数众多，到阳城上庙看社火，看高跷走兽的四邻八乡群众是络绎不绝，人山人海。但是现在社火表演规模不断缩小，节目数量大为减少，过去的庙会社 火的抬阁、车鼓、八抬、竹马等节目都不演了，一般情况下只表演高跷走兽。仪式简化与村民参与人数的减少使高跷走兽的发展也面临尴尬处境。</text>
+        <view class="inset">
+          <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status7.webp"mode="aspectFill"></image>
+          <view class="annotation">高跷走兽参加全国文化活动</view>
+        </view>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;二是民众参与热情度降低。随着社会经济发展，人们生活方式的转变，群众思想观念也发生了转变，村民对待社火的热情和 心态发生了变化。对传统的祭祀火神娘娘活动失去了信仰，原先祭祀神灵、祈福消灾的功能被极大弱化。据传承人讲：“以前都说是给火神娘娘办事  呢，大家都很认真，积极努力地干，现在不那么认真了。年轻人怕吃苦，都不太愿意扎拐子。”制作工艺复杂、学习时间长及体力消耗大、观念的变化 等因素使村民参与表演的兴趣日渐淡薄。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;三是受市场经济的影响。传承人王成林说：“我记得小时候参加社火表演，大家都是兴高采烈的，有钱的出钱，有力的出力，  只要家里有，社火表演需要，都是随便拿，从来没有人谈过钱。现在不行了，服装、道具啥的都需要钱，出去表演车费吃饭啥的也需要钱。”高跷走兽 表演团队也积极参加商演活动。每次商演，主要传承人的报酬大约是两百元，但是这样的商演机会并不多，一年表演团队主要传承人能有五六千元的表 演补助就不错了。缺乏足够收入，不能以此养家糊口，也是无法吸引年轻人参与的重要因素。经济因素在一定程度上制约了高跷走兽的发展。</text>
+        <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;四是年轻传承人减少。高跷走兽是“自给自足”农耕经济时代的民俗文化产物。但是随着现代社会的发展，传统的农耕生活已 不能满足年轻人过上美好生活的需求，导致阳城村里的大多数年轻人都外出务工，村里的留守人口多为老人和儿童，学习高跷走兽的年轻人越来越少。 目前最年轻的县级代表性传承人都30岁了，传承工作面临着青黄不接的境地。</text>
+      </view>
+    </sticky-section>
+
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第三节 高晓走兽的与时俱进</view>
+      </sticky-header>
+      <view class="content" style="margin-top: 50rpx;">
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;为了保护、传承好高跷走兽，各级政府、文化部门、阳城村人以及传承人都倾尽所有，呕心沥血，做了大量艰苦的工作，使 高跷走兽紧跟新时代步伐，与时俱进发展。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;活动空间更加广泛。高跷走兽是阳城庙会的一种重要表演形式，在清代及民国时期，它一般在庙会期间表演，表演场地也仅 限于阳城村的道路及广场。20世纪80年代以后，它的表演空间、时间都有了较大变化。不再拘泥于阳城庙会，也不局限于阳城村，它可以在任何地方、 任何场地进行独立表演。作为阳城村、稷山县甚至运城市最具代表性的节目之一，它应邀到全国各地参加演出。为节省物力、财力，根据活动主办方的 要求，可以是两个兽等灵活演出。同时，高跷走兽打破了演出场地限制，走上舞台进行表演。2015年，高跷走兽参加运城市非物质文化遗产鼓乐大赛， 在运城市南风广场的舞台上与稷山高台花鼓同台演出，现场效果十分震撼。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status3.webp"mode="aspectFill"></image>
+        <view class="annotation">2012年,九凤呈祥亮相稷山县元宵节社火活动现场</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;表演内容更加丰富。1968年，高跷走兽就参加了现代样板戏《智取威虎山》的演出，兽头、兽身的造型没有变化，但是骑兽 人的装扮是杨子荣，在角色、装束、化妆上打破了传统。这应该是高跷走兽最大胆的创新和突破。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;2016年运城市举办国际关公文化旅游节，高跷走兽表演团队围绕活动主题，创作了“五虎将”，即骑兽人扮演的是《三国演 义》里的“五虎将”—关羽、张飞、赵云、马超、黄忠，骑的走兽分别是貅狼、独角兽、麒麟、梅花鹿、黑狸虎。关于高跷走兽骑兽人角色是否能改变的  问题，专家们有过争论。其实非物质文化遗产保护过程中，国内外专家在非物质文化遗产能否创新的问题上，一直有着激烈争论。但是民间艺术的传承  自有其规律，一定会随着社会的变化而自主变化，外来力量的过多干预反而会挫伤传承人的积极性。传承人对高跷走兽这种角色改变是乐于其成的。笔  者也认为在坚持传统文化核心元素不变的前提下，根据活动需要适当进行改变，对高跷走兽的传承发展具有积极意义。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status4.webp"mode="aspectFill"></image>
+        <view class="annotation">高跷走兽在中国运城国际关公文化旅游节开幕式</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;配乐更适应现代节奏。高跷走兽以前的配乐，特别是锣鼓点比较缓慢，为了适应现代人的快节奏生活，高跷走兽的配乐曲牌 也有发展，编曲现代感更强，节奏也更紧凑。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;恢复“九凤呈祥”节目。“九凤呈祥”是阳城庙会社火中一组非常吸引观众的优秀传统节目。反映的是人们向往延年益寿，期盼 美好幸福生活的场景，飘逸灵动的表演形式深受观众喜爱。阳城高跷走兽保护中心2010年组织由老艺人王成瑞为核心的恢复小组，开始挖掘、整理资 料，深入研究、制作道具，购置服装，培训表演人员。当时参与制作的共有十多人每人每天只有二十元的工资，以这种奉献精神历时四十多天终于制作 好道具，修复了九凤呈祥。2012年，九凤呈祥节目参加了稷山县元宵节社火表演，使封尘六十多年的优秀节目以崭新的姿态展现在观众面前，引起各界 轰动。</text>
+
+    </view>
+    </sticky-section>
+    
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第四节 高跷走兽的保护成效显著</view>
+      </sticky-header>
+    <view class="content" style="margin-top: 50rpx;">
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;近年来，稷山县在保护高跷走兽的方面采取了一系列的举措，成效显著。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;一是搜集整理资料。阳城高跷走兽保护中心的段铁成、杨丙耀、吉丙山等各位传承人在2002年到2013年的十一年时间内，先 后采访老艺人34人次，收集各类历史资料；调查古高凉城等古遗址53次；收集遗物800余件；在市、县档案馆查阅档案资料11次；查阅有关书籍23册；  召集老艺人座谈18次；记录随访笔记13本；书写草稿文本21册，文字记录约24万字，保护中心先后组织人员编写高跷走兽书籍、画册4000余册；各种  宣传画册6个种类10000余册；各种宣传画页5个种类30000余张；年历宣传画6个种类4000余张；宣传广告版面200多平方米。为高跷走兽保护工作打下  了坚实基础。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status5.webp"mode="aspectFill"></image>
+        <view class="annotation">高跷走兽外出交流表演</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;二是组建表演队，外出交流。二十余年来，高跷走兽表演队先后到开封、太原、晋中、韩城、北京、临汾、朔州等地参加全 国各地各种文化活动60余次。2013年、2014年春节，高跷走兽表演队首次走出娘子关，亮相北京民俗文化节，受到北京各界人士的高度赞誉。2015年 春节期间，高跷走兽表演队代表山西省参加在河南省举办的第十二届中国民间文艺社火大赛，同时荣获金奖和第十二届中国民间文艺山花奖两项国家级 大奖，极大地提高了高跷走兽的知名度。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;三是培养新的传承人。在市、县文化部门的支持下，阳城高跷走兽保护中心共组织村民16批500多人(次)，进行了高跷走兽表  演技艺培训，大大充实了演员队伍。为了尽快使高跷走兽演员年轻化，2013年春节，稷山县文化局主办，阳城高跷走兽保护中心承办了首届阳城村高跷  技巧技艺比赛活动，活动举办了三天，规模大、参加人数多，涌现出一批青年后继人才，同时也发现了不少七八岁的优秀少儿人才，一定程度上解决了  高跷走兽后继无人的问题。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status6.webp"mode="aspectFill"></image>
+        <view class="annotation">非遗进景区—-高跷走兽在解州关帝庙广场演出</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;四是加强宣传，提高知名度。阳城高跷走兽保护中心先后接待中央电视台《乡约》栏目、中韩友好文化交流协会及《人民日 报》《人民政协报》《山西日报》《山西画报》、北京电视台、山西电视台、南开大学、山西师范大学等中外新闻媒体和全国各大高等院校采访50余 次，共有140多篇相关报道刊载于各种报纸杂志。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;五是加强资金支持。2006年，阳城庙会文艺理事会发动南北阳城村民137户，筹集了3.6万元，为启动保护工作提供了资金保 障。随后十多年，国家、省、市、县文化部门通过非遗专项保护资金、非遗进景区补助、公益活动补助等各种方式为高跷走兽保护、传承工作提供了有 力的资金支持。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;六是添置了道具服装。共投资20万余元，传承人专程到西安、郑州、洛阳等地购置道具服装200多件，解决了演出服装问题。  修复传统道具130多件。</text>
+    </view>
+    </sticky-section>
+
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第五节 “青春版”小走兽的启示</view>
+      </sticky-header>
+    <view class="content" style="margin-top: 50rpx;">
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;如何将高跷走兽更好地传承下来，特别是从小培养青少年热爱家乡民间艺术，阳城高跷走兽保护中心的各位传承人在高跷走 兽制作和表演过程中，不断探索和不断追求。2018年5月，开展了非遗传承进校园活动，指导、培训阳城小学百名小学生高跷表演队排练演出活动，大  大激发了师生们学习高跷走兽的积极性。2019年5月，保护中心负责人王成林在一年多的“非遗进校园”实践基础上，大胆探索创新，组织传承人历时两 年对高跷走兽的兽头及兽身进行了全面的设计、制作，打造出更精美的“青春版”小走兽。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status8.webp"mode="aspectFill"></image>
+        <view class="annotation">阳城小学青春版小走兽表演队伍</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;王成林带领传承人研发设计出的青春版小走兽，既保留了高跷走兽核心的制作工艺，又根据孩子们的身高量身打造适合表演 的兽头、兽身和道具。参与小走兽制作人员有王成林、杨志林、杨民杰、杨生全、王维鹏等；参与传承培训人员有王成林、杨志林、杨民杰、杨生全、 杨新立、王维鹏等；小走兽表演分为三组：麒麟两个、独角兽两个、貅狼两个。由刘浩翔、王朝璋、段博岩、李明博、张玉泽、王佳翔、杨广大、杨水 涛、王伊博、李子豪、杨高将、王子熙12名10岁左右、身高在1.4米左右、平均体重35公斤、脚下所踩高跷高度65厘米左右的骨干组成第一批小走兽表  演团队。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;小走兽兽头按照大兽头比例整体缩小了30厘米左右，兽身按照大兽身比例长度缩短了50厘米左右，整体高度缩小了40厘米左 右，宽度缩小25厘米左右。小走兽兽头兽身总重量在15公斤左右、兽身高度在1.4米左右、兽头兽身长度2.4米左右。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status9.webp"mode="aspectFill"></image>
+        <view class="annotation">高晓走兽进校园传承</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;走兽的制作工艺非常复杂。就拿做兽头来说，准备材料、做泥胎、泥胎成型、打磨泥胎形状，泥胎打磨好以后开始裱糊，一 层布三层纸，总共下来裱糊二十多层，在裱糊未干以前要整理两到三天，干透了以后取出泥胎，开始装饰（竹圈、牙齿、舌头、眼晴、耳朵、胡子）彩 绘。兽身制作从整理竹板、主杆、做竹圈、定尺寸、成形状，到包布、缝毛条、做兽腿和兽蹄、做尾巴等细节都要求精工细作，方可完成适合表演的精 品道具。这些道具给小演员创造了一个良好舒适的表演条件。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;2019年，保护中心积极组织优秀非遗传承人进校园一对一进行指导和传承培训工作。无偿为学校提供道具和服装支持。经过 两年的培训，在2021年校园艺术节上，“青春版”小走兽进行了精彩表演，一时引起轰动。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status10.webp"mode="aspectFill"></image>
+        <view class="annotation">青春版小走兽————独角兽</view>
+      </view>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status11.webp"mode="aspectFill"></image>
+        <view class="annotation">青春版小走兽————麒麟</view>
+      </view>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status12.webp"mode="aspectFill"></image>
+        <view class="annotation">青春版小走兽————貅狼</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;2021年，稷山县小学合并，阳城村的阳城小学因为有青春版小走兽表演队伍（100人）才保留了下来，并设立为特色学校。  2022年，大走兽表演队和“青春版小走兽”多次在稷山县城表演，受到各界人士一致好评。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;到2023年7月，已制作出大兽头、兽身4套；青春版小兽头、兽身6套，共计10套；制作新高跷(拐子)40副，全部无偿提供给  学校使用，让青少年参与高跷走兽传承活动，现已培养出24名小学生演员表演“青春版”小走兽。</text>
+    </view>
+    </sticky-section>
+
+    <sticky-section>
+      <sticky-header>
+        <view class="title">第六节 传承工作的儿点建议</view>
+      </sticky-header>
+    <view class="content" style="margin-top: 50rpx;">
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;2023年，中华人民共和国文化和旅游部发布了《非物质文化遗产数字化保护数字资源采集和著录》系列行业标准的公告。传 统舞蹈部分对项目的实践方式、表现形式、分布区域、地理环境、形成时间，及源流、主要特点、重要功能与价值、文献资料、音乐道具、代表人物、 代表节目、传承群体、传承方式、发展现状，与相关民俗、宗教、文化空间的关系等内容都有了标准化、科学化的信息采集标准。今后，稷山县相关部 门应该和国内知名高校、研究机构合作，将高跷走兽的项目进行全面系统的数字资源采集，加强数字化保护工作。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;第一，进一步加强传承人群培训。随着时代变迁，高跷走兽的组织机构、传承方式都较以往有了较大变化。特别是以前以庙 会祭祀文化为核心，几乎是全村人参与项目活动，现在庙会文化已经淡化，祭祀功能更是弱化，项目表演活动由原本的全民参与变成了如今主要以爱好 者参与为主。传承方式也从家族传承、师徒传承为主演变为以校园传承、集体培训传承为主。在这种社会环境发生变化之际，传承工作更要适应现代社 会需求主动做出调整。继续加大校园传承培训力度，并尽可能将项目融入民俗功能中传承、发展。</text>
+      <view class="inset">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/status/status13.webp"mode="aspectFill"></image>
+        <view class="annotation">小小传承人</view>
+      </view>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;第二，组建专业表演团队。目前，高跷走兽的演出主要在三个方面：一是重要节假日活动。比如市、县、村组织的元宵节社 火表演活动。二是公益性演出。比如农民丰收节、民俗文化节、文化和自然遗产日等政府部门组织的重要活动。三是商业性演出。比如庆典、景区商业 性演出等。表演团的演员都是农民或自由职业者，平时各忙各的，有演出任务时再集合排练、演出，演出结束后便解散。这种演出模式主要还是因为演 出场次少，表演者收入低，单靠演出收入负担不起演员家庭生活。建议各级政府部门应将民营团体演出也纳入政府购买“文化惠民服务范畴，对这种群  众喜欢看、迫切需要传承的项目给予一定支持。这样，有了基本的保底收入，再加上商业演出，高跷走兽组建专业团体就有了基本保障，传承也会更有  活力。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;第三，创新传播方式。当前，高跷走兽的传播方式主要有线下、线上，以线下为主，线下主要是在一些文旅活动上展演。线 上传播也仅仅是通过抖音、微信、头条等平台传播简单的文字、图片、小视频等，这种传播方式没有聚合效应。在新技术发展时代，要运用“3D、特效  渲染等数字动画技术可将高跷走兽进行活化和再现；数字博物馆、专题网络平台、虚拟现实交互平台等的建设能够使高跷走兽‘活’起来，高效拓展传播  途径”。?要充分运用新媒体、新技术，拓展和创新传播渠道，开发高跷走兽文创产品，开发走兽手游、打造IP，甚至可以像《功夫熊猫》一样，制作成  电影等。总之，通过创新传播方式，提高高跷走兽的知名度和影响力，让全世界人民都能了解、欣赏高跷走兽这一宝贵的非物质文化遗产项目。</text>
+      <text class="matter">&nbsp;&nbsp;&nbsp;&nbsp;三百多年的历史长河中，一代又一代的阳城人在传承中不断创新，在创新中体现传统，与时俱进，不断发展，使高跷走兽更 好地得以传承、弘扬。</text>
+    </view>
+    </sticky-section>
+  </scroll-view>
+</view>

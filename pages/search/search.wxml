@@ -1,0 +1,18 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="搜索" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<page class="page">
+  <view class="searchContainer">
+    <view><icon type="search" size="25"></icon></view>
+    <input type="text" placeholder="请输入关键字进行搜索" bindconfirm="onSearch" 
+      bindinput="onInput"/>
+  </view>
+  <view class="prompt">
+    <text>共0数据</text>
+  </view>
+  <view class="imgContainer">
+    <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/%E7%A9%BA%E6%95%B0%E6%8D%AE.svg"></image>
+  </view>
+</page>

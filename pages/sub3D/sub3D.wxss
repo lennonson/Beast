@@ -1,0 +1,71 @@
+/* pages/sub3D/sub3D.wxss */
+.nav-bar {
+  position: fixed;
+  background-color: #977049;
+  z-index: 10;
+}
+
+.outer {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgba(236, 223, 198, 0.527);
+  display: flex;
+}
+.page {
+  margin-top: 160rpx;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  box-sizing: border-box;
+}
+.titleContainer {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  border-bottom: solid;
+  font-size: 50rpx;
+}
+.videoContainer {
+  border-radius: 10px;
+  width: 100%;
+  height: 60%;
+}
+.videoPlayer {
+  width: 100%;
+  height: 100%;
+}
+
+.controls {
+  margin-top: 15rpx;
+  width: 100%;
+  height: 410rpx;
+  background-color: #977049;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 360rpx;
+  width: 300rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+  background-color: rgba(236, 223, 198, 0.527);
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 75%;
+}
+.name {
+  margin-top: 18rpx;
+  font-size: 33rpx;
+}

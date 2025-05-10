@@ -1,0 +1,44 @@
+.nav-bar {
+  position: fixed;
+  background-color: #977049;
+  z-index: 10;
+}
+
+.outer {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgba(236, 223, 198, 0.527);
+  display: flex;
+  padding-top: 165rpx;
+}
+.game-select {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  box-sizing: border-box;
+}
+.title {
+  margin-top: 40rpx;
+  width: 100%;
+  text-align: center;
+  color: #020202;
+  margin-bottom: 20rpx;
+  font-size: 38rpx;
+  font-family: 'KaiTi';
+}
+.CoverContainer {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-level {
+  width: 43%;
+  height: auto;
+  margin: 20rpx 10rpx;
+  border: solid;
+}

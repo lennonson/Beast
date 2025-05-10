@@ -1,0 +1,114 @@
+<!--pages/home.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="" back="{{false}}">
+  	<view class="nav-left" slot="left" style="position: relative; left: -31rpx; top: 0rpx">
+      <view class="nav-back"></view>
+  		<image class="nav-logo" mode="aspectFill" src="/icon/beastLogo.png" />
+  		<view class="nav-title">
+  			<text class="nav-text">兽 护 稷 安</text>
+  		</view>
+  	</view>
+  </navigation-bar>
+</page-meta>
+
+<scroll-view class="outer" scroll-y="true"enable-flex="true">
+  <view class="searchContainer">
+    <view><icon type="search" size="25"></icon></view>
+    <input type="text" placeholder="请输入关键字进行搜索" bindconfirm="onSearch" 
+      bindinput="onInput" bindfocus="onInputFocus"/>
+  </view>
+  <swiper class="swiperContainer"autoplay="true" interval="3000"circular="true">
+    <block wx:for="{{cover}}" wx:for-index="idx" wx:key="idx" wx:for-item="item">
+      <swiper-item class="item">
+        <navigator class="cover" url="">
+          <image src="{{item}}" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="page"enable-flex="true">
+    <view class="pageContainer">
+      <view class="content">
+        <navigator url="/pages/list1/list1" class="grid">
+          <image class="iconImg" src="/icon/brief.png" mode="scaleToFill"></image>
+          <text>简要介绍</text>
+        </navigator>
+        <!-- <navigator url="/pages/3D/3D" class="grid"> -->
+        <navigator url="/pages/sub3D/sub3D" class="grid">
+          <image class="iconImg" src="/icon/3d.png"></image>
+          <text>3D展示</text>
+        </navigator>
+        <navigator url="/pages/list3/list3" open-type="navigate" class="grid">
+          <image class="iconImg" src="/icon/interaction.png" mode="scaleToFill"></image>
+          <text>兽趣互动</text>
+        </navigator>
+        <navigator url="/pages/list4/list4" class="grid">
+          <image class="iconImg" src="/icon/DIY.png" mode="scaleToFill"></image>
+          <text>拼图游戏</text>
+        </navigator>
+        <navigator url="/pages/AR/AR" class="grid">
+          <image class="iconImg" src="/icon/AR.png" mode="scaleToFill"></image>
+          <text>AR展示</text>
+        </navigator>
+      </view>
+      
+      <view class="encyclopedia">
+        <view class="title">
+          <text class="headline">稷安·百科</text>
+          <text class="more">更多>></text>
+        </view>
+        <swiper class="swiperEncyclopedia"
+        previous-margin="20px" 
+        next-margin="20px" 
+        circular="true">
+          <swiper-item wx:for="{{encyclopedia}}"wx:for-item="item"wx:key="idx" >
+            <navigator class="elementEncyclopediaContainer" url="/pages/{{item.nav}}/{{item.nav}}">
+              <view class="imgContainer">
+                <image src="{{item.img}}" mode="aspectFill"></image>
+              </view>
+              <text>{{item.title}}</text>
+            </navigator>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="content">
+        <navigator class="notification">
+          <view class="back back-notification"></view>
+          <text class="iconText">通知</text>
+          <view class="verticalLine"></view>
+          <swiper class="notificationSwiper" autoplay="true" interval="3000" vertical="true" circular="true">
+            <swiper-item>
+              <view class="matterContainer">
+                <text class="matter">高跷走兽冬季时间调整</text>
+              </view>
+            </swiper-item>
+            <swiper-item>
+              <view class="matterContainer">
+                <text class="matter">产品上新</text>
+              </view>
+            </swiper-item>
+          </swiper>
+        </navigator>
+      </view>
+      <view class="drawer">
+        <block wx:for="{{piece}}" wx:for-index="idx" wx:key="idx"
+    wx:for-item="item">
+          <navigator class="pieces">
+            <view class="back"></view>
+            <image class="piece_img" src="{{item.url}}"></image>
+            <text class="piece_txt">{{item.brief}}</text>
+            <view class="piece_ctrl">
+              <view class="priceContainer">
+                <image class="price_RMB" src="/icon/RMB.png" mode="scaleToFill"></image>
+                <text style="color: rgb(182, 82, 0);">{{item.price}}</text>
+              </view>
+              <view class="cartBtn"bindtap="add_to_cart">
+                <image class="addImg" src="/icon/add.png"></image>
+              </view>
+            </view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+</scroll-view>

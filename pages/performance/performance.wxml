@@ -1,0 +1,19 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="表演形式" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="page" bindtouchstart="onTouchStart" bindtouchend="onTouchEnd">
+  <view class="foreword animation"style="{{foreword}}" >
+    <view class="coverContainer">
+      <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/Inheritance/Inheritance_cover1compressed.webp"></image>
+    </view>
+    <view class="content">&nbsp;&nbsp;&nbsp;{{text[0].content}}</view>
+    <view class="arrow_up" bindtap="onArrowTap">
+      <image src="/icon/up.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <view class="matter animation"style="{{matter}}">
+    <view class="content">&nbsp;&nbsp;&nbsp;{{text[1].content}}</view>
+  </view>
+</view>

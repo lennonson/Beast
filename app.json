@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/wenChuang/wenChuang",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/cart/cart",
+    "pages/list1/list1",
+    "pages/list2/list2",
+    "pages/list3/list3",
+    "pages/list4/list4",
+    "pages/list5/list5",
+    "components/navigation-bar/navigation-bar",
+    "pages/search/search",
+    "pages/artForm/artForm",
+    "pages/matter/matter",
+    "pages/Inheritance/Inheritance",
+    "pages/status/status",
+    "pages/costume/costume",
+    "pages/performance/performance",
+    "pages/3D/3D",
+    "components/3D-start/index",
+    "pages/sub3D/sub3D",
+    "pages/AR/AR",
+    "pages/puzzle/puzzle"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "兽护稷安",
+    "navigationBarBackgroundColor": "#a08f6a"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json",
+  "componentFramework": "glass-easel",
+  "rendererOptions": {
+    "skyline": {
+      "disableABTest": true,
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true
+    }
+  },
+  "tabBar": {
+    "selectedColor": "#a08f6a",
+    "color": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/首页2.png",
+        "selectedIconPath": "icon/首页.png"
+      },
+      {
+        "pagePath": "pages/wenChuang/wenChuang",
+        "text": "文创",
+        "iconPath": "icon/分类2.png",
+        "selectedIconPath": "icon/分类.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icon/购物车2.png",
+        "selectedIconPath": "icon/购物车.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "icon/个人2.png",
+        "selectedIconPath": "icon/个人.png"
+      }
+    ]
+  }
+}

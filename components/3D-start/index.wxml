@@ -1,0 +1,14 @@
+<!--components/3D-start/index.wxml-->
+<xr-scene>
+  <xr-asset-load type="gltf" asset-id="damage-helmet" src="https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/damage-helmet/index.glb" />
+  <!-- <xr-asset-load type="gltf" asset-id="miku" src="https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/miku.glb" /> -->
+  <xr-asset-load type="gltf" asset-id="miku" src="/images/mask1.glb" />
+
+  <xr-light type="ambient" color="1 1 1" intensity="1" />
+  <xr-light type="directional" rotation="40 70 0" color="1 1 1" intensity="3" cast-shadow />
+
+  <xr-gltf node-id="damage-helmet" model="damage-helmet"/>
+  <xr-gltf model="miku" position="-0.15 0.75 0" scale="1 1 1" rotation="0 -90 0"anim-autoplay/>
+  
+  <xr-camera position="0 1.5 4"target="damage-helmet" clear-color="0.4 0.8 0.6 1" position="0 1 4" camera-orbit-control />
+</xr-scene>
