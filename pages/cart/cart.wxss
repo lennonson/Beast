@@ -32,7 +32,7 @@
   align-items: center;
 }
 .selected {
-  background-image: url('/icon/select.png'); 
+  background-image: url('https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/select.png'); 
   background-size: cover;
 }
 .Btn {

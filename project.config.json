@@ -22,7 +22,7 @@
     "ignoreUploadUnusedFiles": true,
     "compileWorklet": true,
     "uglifyFileName": true,
-    "minifyWXML": false,
+    "minifyWXML": true,
     "ignoreDevUnusedFiles": false
   },
   "condition": {},

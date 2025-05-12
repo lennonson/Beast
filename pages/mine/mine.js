@@ -2,7 +2,7 @@
 const db = wx.cloud.database()
 Page({
   data: {
-    avatar: '../../icon/beastLogo.png',
+    avatar: 'https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/beastLogo.png',
     nickname: '',
     logining: false,
     filledHead: false,
@@ -12,12 +12,13 @@ Page({
     wx.login({
       success: (e) => {
         if (e.code) {
+          let wxKey = '8c7f92faf7ea4db00e1b09f530f12fc01203910f23f'
           wx.request({
             url: 'https://api.weixin.qq.com/sns/jscode2session',
             method: 'get',
             data: {
               appid: 'wxd2cc99fd8f1a9580',
-              secret: '8c7f92faf7ea4db00e1b09f530f12fc0',
+              secret: wxKey.substring(0, 32),
               js_code: e.code,
               grant_type: 'authorization_code'
             },

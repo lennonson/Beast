@@ -1,13 +1,13 @@
 <page-meta>
-  <navigation-bar class="nav-bar" title="{{feed[feedIndex].brief}}" back="{{true}}">
+  <navigation-bar class="nav-bar" title="{{feed.brief}}" back="{{true}}">
   </navigation-bar>
 </page-meta>
 
 <scroll-view class="pageContainer" scroll-y="true"enable-flex="true">
   <view class="page">
-    <image src="{{feed[feedIndex].fullImg}}" 
+    <image src="{{feed.fullImg}}" 
       class="img"
       mode="aspectFill"></image>
-    <text class="txt">&nbsp;&nbsp;&nbsp;{{feed[feedIndex].matter}}</text>
+    <text class="txt">&nbsp;&nbsp;&nbsp;{{feed.matter}}</text>
   </view>
 </scroll-view>

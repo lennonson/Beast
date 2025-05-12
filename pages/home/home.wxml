@@ -3,7 +3,7 @@
   <navigation-bar class="nav-bar" title="" back="{{false}}">
   	<view class="nav-left" slot="left" style="position: relative; left: -31rpx; top: 0rpx">
       <view class="nav-back"></view>
-  		<image class="nav-logo" mode="aspectFill" src="/icon/beastLogo.png" />
+  		<image class="nav-logo" mode="aspectFill" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/beastLogo.png" />
   		<view class="nav-title">
   			<text class="nav-text">兽 护 稷 安</text>
   		</view>
@@ -29,25 +29,25 @@
   <view class="page"enable-flex="true">
     <view class="pageContainer">
       <view class="content">
-        <navigator url="/pages/list1/list1" class="grid">
-          <image class="iconImg" src="/icon/brief.png" mode="scaleToFill"></image>
+        <navigator url="/subpackage/lists/list1/pages/list1" class="grid">
+          <image class="iconImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/brief.png" mode="scaleToFill"></image>
           <text>简要介绍</text>
         </navigator>
         <!-- <navigator url="/pages/3D/3D" class="grid"> -->
-        <navigator url="/pages/sub3D/sub3D" class="grid">
-          <image class="iconImg" src="/icon/3d.png"></image>
+        <navigator url="/subpackage/lists/sub3D/pages/sub3D" class="grid">
+          <image class="iconImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/3d.png"></image>
           <text>3D展示</text>
         </navigator>
-        <navigator url="/pages/list3/list3" open-type="navigate" class="grid">
-          <image class="iconImg" src="/icon/interaction.png" mode="scaleToFill"></image>
+        <navigator url="/subpackage/lists/list3/pages/list3" open-type="navigate" class="grid">
+          <image class="iconImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/interaction.png" mode="scaleToFill"></image>
           <text>兽趣互动</text>
         </navigator>
-        <navigator url="/pages/list4/list4" class="grid">
-          <image class="iconImg" src="/icon/DIY.png" mode="scaleToFill"></image>
+        <navigator url="/subpackage/lists/list4/pages/list4" class="grid">
+          <image class="iconImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/DIY.png" mode="scaleToFill"></image>
           <text>拼图游戏</text>
         </navigator>
-        <navigator url="/pages/AR/AR" class="grid">
-          <image class="iconImg" src="/icon/AR.png" mode="scaleToFill"></image>
+        <navigator url="/subpackage/lists/AR/pages/AR" class="grid">
+          <image class="iconImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/AR.png" mode="scaleToFill"></image>
           <text>AR展示</text>
         </navigator>
       </view>
@@ -62,7 +62,7 @@
         next-margin="20px" 
         circular="true">
           <swiper-item wx:for="{{encyclopedia}}"wx:for-item="item"wx:key="idx" >
-            <navigator class="elementEncyclopediaContainer" url="/pages/{{item.nav}}/{{item.nav}}">
+            <navigator class="elementEncyclopediaContainer" url="{{item.nav}}">
               <view class="imgContainer">
                 <image src="{{item.img}}" mode="aspectFill"></image>
               </view>
@@ -93,17 +93,17 @@
       <view class="drawer">
         <block wx:for="{{piece}}" wx:for-index="idx" wx:key="idx"
     wx:for-item="item">
-          <navigator class="pieces">
+          <navigator class="pieces" url="/pages/goods/goods?feedIndex={{idx}}">
             <view class="back"></view>
             <image class="piece_img" src="{{item.url}}"></image>
             <text class="piece_txt">{{item.brief}}</text>
             <view class="piece_ctrl">
               <view class="priceContainer">
-                <image class="price_RMB" src="/icon/RMB.png" mode="scaleToFill"></image>
+                <image class="price_RMB" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/RMB.png" mode="scaleToFill"></image>
                 <text style="color: rgb(182, 82, 0);">{{item.price}}</text>
               </view>
               <view class="cartBtn"bindtap="add_to_cart">
-                <image class="addImg" src="/icon/add.png"></image>
+                <image class="addImg" src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/add.png"></image>
               </view>
             </view>
           </navigator>

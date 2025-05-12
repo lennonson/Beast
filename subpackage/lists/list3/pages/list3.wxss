@@ -1,0 +1,174 @@
+.nav-bar {
+  position: fixed;
+  background-color: #977049;
+  z-index: 10;
+}
+
+page {
+  --bg: rgba(236, 223, 198, 0.527);
+  background: var(--bg);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --active: #FFA07A;
+  --bgcolor: #D2B48C;
+}
+/* 圆形菜单 */
+.container {
+  width: 700rpx;
+  height: 900rpx;
+  position: relative;
+}
+.menu-box {
+  /* width: 600rpx;
+  height: 900rpx; */
+  width: 80%;
+  height: 100%;
+  position: relative;
+  opacity: 0;
+  transform: scale(0);
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.menu-box.active {
+  transform: scale(1.3);
+  opacity: 1;
+  visibility: visible;
+}
+/* 点我吧 */
+.menu-add-box {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  position: absolute;
+  top: calc(50% - 90rpx);
+  left: calc(50% - 90rpx);
+  background: var(--bg);
+}
+.menu-add-box::after {
+  content: '^点我吧^';
+  position: absolute;
+  bottom: -20rpx;
+  font-size: 22rpx;
+  color: #222;
+  font-weight: bold;
+  font-style: italic;
+  transition: all.5s;
+  opacity: 1;
+}
+.menu-add-box.active::after {
+  font-size: 0rpx;
+  opacity: 0;
+}
+.menu-add-box image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.5s ease-in-out;
+}
+.menu-add-box.active image {
+  transform: rotate(135deg);
+}
+/* 每一项菜单 */
+.menu-box-item {
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: calc(50% - 60rpx);
+  left: calc(50% - 60rpx);
+  transition: all 0.5s;
+  transform: rotate(calc(var(--deg) * var(--n))) translateX(-210rpx);
+}
+.menu-box-item image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 0.5s;
+}
+.menu-box-item.active {
+  transform: rotate(calc(var(--deg) * var(--n))) translateX(-250rpx);
+}
+.menu-box-item.active image {
+  animation: scale 1s ease-in-out;
+}
+@keyframes scale {
+  100% {
+    transform: scale(1.9);
+  }
+}
+/* 选中的背景框 */
+.menu-box-active {
+  position: absolute;
+  width: 150rpx;
+  height: 150rpx;
+  background: var(--active);
+  box-shadow: 0 0 0 10rpx var(--bg);
+  border-radius: 50%;
+  pointer-events: none;
+  transition: all 0.5s;
+  transform-origin: center;
+  top: calc(50% - 75rpx);
+  left: calc(50% - 75rpx);
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+.menu-box-item.active~.menu-box-active {
+  transform: rotate(calc(var(--deg) * var(--n))) translateX(-250rpx);
+  opacity: 1;
+  visibility: visible;
+}
+/*filter（滤镜）修饰父元素背景，影响子元素问题解决 */
+.menu-box::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--bgcolor);
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 8px var(--active));
+  -webkit-filter: drop-shadow(0px 0px 8px var(--active));
+}
+/* 新增全屏显示图片的样式 */
+.full-screen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9); /* 将背景色改为白色，透明度0.9 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.full-screen-image.active {
+  opacity: 1;
+  visibility: visible;
+}
+.full-screen-image-content {
+  width: 93%;
+  height: 60%;
+  animation: fullScreenScale 0.3s ease;
+}
+@keyframes fullScreenScale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

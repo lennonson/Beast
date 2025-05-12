@@ -26,11 +26,11 @@ module.exports = {
     },
     { 
       id: 4, 
-      title: "稷安书签", 
-      price: 48, 
+      title: "貅狼挂坠", 
+      price: 28.8, 
       quantity: 1,
       selected: false,
-      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/test/test%E4%B9%A6%E7%AD%BE.webp" 
+      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/goods/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01-1.jpg" 
     },
     { 
       id: 5, 
@@ -46,7 +46,7 @@ module.exports = {
       price: 45, 
       quantity: 1,
       selected: false,
-      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/test/test%E5%86%B0%E7%AE%B1%E8%B4%B4.webp"
+      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/goods/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01-1.jpg"
     },
     { 
       id: 7, 
@@ -62,7 +62,7 @@ module.exports = {
       price: 58, 
       quantity: 1,
       selected: false,
-      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/test/test%E7%A4%BC%E7%9B%92.webp" 
+      imageUrl: "https://beast-jian.oss-cn-beijing.aliyuncs.com/goods/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01/%E8%B5%B0%E5%85%BD%E6%8C%82%E5%9D%A01-1.jpg" 
     },
     { 
       id: 9, 

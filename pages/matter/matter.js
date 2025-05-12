@@ -1,16 +1,18 @@
 // pages/matter/matter.js
-const artForm = require("../../data/artForm_data");
+const artForm = require("../../subpackage/encyclopedia/artForm/src/artForm_data");
 
 Page({
   data: {
-    feed: [],
+    feed: {},
     feedIndex: 0
   },
 
   onLoad(options) {
     this.setData({
-      feed: artForm.data,
-      feedIndex: parseInt(options.feedIndex)
+      feedIndex: parseInt(options.feedIndex),
+      feed: artForm.data[this.data.feedIndex]
     });
+    console.log('artForm的编号为', this.data.feedIndex);
+    console.log(this.data.feed);
   },
 });

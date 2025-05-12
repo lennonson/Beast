@@ -1,0 +1,56 @@
+<!--pages/Inheritance/Inheritance.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="传承情况" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="page" bindtouchstart="onTouchStart" bindtouchend="onTouchEnd">
+  <view class="foreword animation" style="{{foreword}}">
+    <view class="coverContainer">
+      <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/Inheritance/Inheritance_cover1compressed.webp"></image>
+    </view>
+    <text class="content"style="margin-bottom: 170rpx">&nbsp;&nbsp;&nbsp;{{text[0].content}}</text>
+    <view class="arrow_up" bindtap="onArrowTap">
+      <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/up.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <view class="matter animation"style="{{matter}}">
+    <view class="content"style="line-height: 1.6;width: 100% margin-left: 50rpx;">
+      <text style="line-height: 1;">
+        <span>清末民初的高跷走兽艺人为：</span><br/>
+        <span>&nbsp;&nbsp;杨玉智(1893——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;王新山(1882——?)；</span><br/>
+        <span>&nbsp;&nbsp;段光华(1880——?)，监生；</span><br/>
+        <span>&nbsp;&nbsp;王国梁(1882——?)，监生；</span><br/>
+        <span>&nbsp;&nbsp;段近勇(1885——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;段维新(1902——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;杨根法(1907——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;段廷元(1904——?)；</span><br/>
+        <span>&nbsp;&nbsp;王春普(1904——?)；</span><br/>
+        <span>&nbsp;&nbsp;柴东义(1880——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;王德娃(1885——?)，生员；</span><br/>
+        <span>&nbsp;&nbsp;杜子由(1886——?)，生员。</span><br/>
+      </text>
+      <text style="line-height: 1.6; margin-top: 20rpx;">&nbsp;&nbsp;因为年代较远并无确切的文字记录，这些传承人的表演状况不知其详。</text>
+    </view>
+    <view class="arrow_up" bindtap="onArrowTap">
+      <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/up.png" mode="aspectFill"></image>
+    </view>
+  </view>
+  <scroll-view class="matter2 animation"style="{{matter2}}"  
+  enable-flex="true"style="margin-left: 20rpx"
+  scroll-y="true" bindscrolltoupper="uppered">
+    <text class="content"style="width: 100%">&nbsp;&nbsp;&nbsp;{{text[4].content}}</text>
+    <text class="content"style="width: 100%">
+      <span>&nbsp;&nbsp;&nbsp;貅狼：杨喜山、杨林儿；段俊喜、杨申奎；杨玉锁、段正保；杨玉杰、段因法；杨生全、段正保；杨生全、段二合。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;牵貅狼的单人高跷：段假女、杨洪来、杨卫保。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;独角兽：王德娃、杜子由；段兴旺、杨立川；王成娃、杨立川；段兴旺、杨立川；杨因录、杨玉锁；杨民杰、杨新立；王河龙、杨玉水。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;螯：王景春、王国忠；杨福太、刘保来；王奇荣、王水生；王振宗、王兰生；王振家、王兰生；王林才、王锁成；王应征、王永新；段俊鹏、王来成。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;麒麟：王新山、王合荣；王新堂、王梦儿；王合喜、王起成；王起成、王富全；王富全、冯新顺；王林合、冯新顺；王林合、王森林；王新录、王新光；张电奎、王武民；王武民、王广生；王武民、冯立明；王克勤、宋红学；段俊鹏、王新光；孙海林、吴王全。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;梅花鹿：孙根生、李福茂；张来锁、吴立水；董成林、吴立水；董成林、孙文安；吴立水、董成林；董成林、李全贵；董成林、吴才有；吴才有、李平安；段春忠、李平安；吴彦林、李平安。</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;黑狸虎：李旺根、段顺立；张英儿、李耀堂；李进才、李万生；张英儿、李学温；张吉奎、李学温；孙海林、李学温；董连生、董顺喜；</span><br/>
+      <span>&nbsp;&nbsp;&nbsp;貘：吴根兴、张贵来；张贵来、李耀堂；吴志水、董三林；董成林、李来成；李福根、吉景生；张玉民、李福才；吴王全、吴仁毛；吴王全、吉登全；吴王全、吴建勋。</span><br/>
+    </text>
+    <text class="content"style="width: 100%">&nbsp;&nbsp;&nbsp;{{text[6].content}}</text>
+  </scroll-view>
+</view>

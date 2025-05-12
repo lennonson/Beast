@@ -15,24 +15,24 @@
 
   <view class='contain'>
     <view class='item'>
-      <image class='icon' src='/icon/account.png'></image>
+      <image class='icon' src='https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/account.png'></image>
       <view class='itemname'>账号与安全</view>
     </view>
     <view class='item'>
-      <image class='icon' src='/icon/message.png'></image>
+      <image class='icon' src='https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/message.png'></image>
       <view class='itemname'>消息通知</view>
     </view>
 
     <view class='item'>
-      <image class='icon' src='/icon/help.png'></image>
+      <image class='icon' src='https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/help.png'></image>
       <view class='itemname'>帮助与反馈</view>
     </view>
     <view class='item'>
-      <image class='icon' src='/icon/about.png'></image>
+      <image class='icon' src='https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/about.png'></image>
       <view class='itemname'>兽护稷安</view>
     </view>
     <view class='item'>
-      <image class='icon' src='/icon/customer.png'></image>
+      <image class='icon' src='https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/customer.png'></image>
       <view class='itemname' bindtap="bindtap_icon4">人工客服</view>
     </view>
   </view>

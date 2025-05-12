@@ -6,24 +6,85 @@
     "pages/logs/logs",
     "pages/mine/mine",
     "pages/cart/cart",
-    "pages/list1/list1",
-    "pages/list2/list2",
-    "pages/list3/list3",
-    "pages/list4/list4",
-    "pages/list5/list5",
     "components/navigation-bar/navigation-bar",
     "pages/search/search",
-    "pages/artForm/artForm",
     "pages/matter/matter",
-    "pages/Inheritance/Inheritance",
-    "pages/status/status",
-    "pages/costume/costume",
-    "pages/performance/performance",
-    "pages/3D/3D",
     "components/3D-start/index",
-    "pages/sub3D/sub3D",
-    "pages/AR/AR",
-    "pages/puzzle/puzzle"
+    "pages/goods/goods"
+  ],
+  "subPackages": [
+    {
+      "root": "subpackage/encyclopedia/artForm",
+      "pages": [
+        "pages/artForm/artForm"
+      ]
+    },
+    {
+      "root": "subpackage/encyclopedia/Inheritance",
+      "pages": [
+        "pages/Inheritance/Inheritance"
+      ]
+    },
+    {
+      "root": "subpackage/encyclopedia/costume",
+      "pages": [
+        "pages/costume/costume"
+      ]
+    },
+    {
+      "root": "subpackage/encyclopedia/status",
+      "pages": [
+        "pages/status/status"
+      ]
+    },
+    {
+      "root": "subpackage/encyclopedia/performance",
+      "pages": [
+        "pages/performance/performance"
+      ]
+    },
+    {
+      "root": "subpackage/lists/list1",
+      "pages": [
+        "pages/list1"
+      ]
+    },
+    {
+      "root": "subpackage/lists/list3",
+      "pages": [
+        "pages/list3"
+      ]
+    },
+    {
+      "root": "subpackage/lists/list4",
+      "pages": [
+        "pages/list4"
+      ]
+    },
+    {
+      "root": "subpackage/lists/3D",
+      "pages": [
+        "pages/3D"
+      ]
+    },
+    {
+      "root": "subpackage/lists/sub3D",
+      "pages": [
+        "pages/sub3D"
+      ]
+    },
+    {
+      "root": "subpackage/lists/AR",
+      "pages": [
+        "pages/AR"
+      ]
+    },
+    {
+      "root": "subpackage/lists/puzzle",
+      "pages": [
+        "pages/puzzle"
+      ]
+    }
   ],
   "window": {
     "navigationBarTextStyle": "white",

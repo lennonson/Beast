@@ -1,0 +1,37 @@
+<!--pages/list1/list1.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="简要介绍" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view
+   id="scrollview"
+   class="page"
+   type="custom"
+   scroll-y
+   show-scrollbar="{{false}}"
+  >
+    <video src="{{VideoID}}" controls="false" class="videoPlayer"
+            enable-play-gesture="true">
+    </video>
+
+    <view class="title">
+      <view class="quare"></view>
+      <text class="titleTxt">&nbsp;典故</text>
+    </view>
+    <view class="textContainer">
+      <text class="txt">&nbsp;&nbsp;&nbsp;&nbsp;古时流传下来的走兽造型奇异，形态逼真。这些走兽的造型有来自现实生活中的，更多的是古代图腾崇拜的产物，还有一些来源于神话传说或历史故事。走兽的典故传说韵味悠长，一个走兽即是一个美丽而古老的故事，演绎着一段传奇。这些典故表达了劳动人民的一个朴素观念，那就是“正义必将战胜邪恶”。北阳城村流传的走兽有貅狼、独角兽、鳖、麒麟，南阳城村流传的走兽有梅花鹿、黑狸虎、貘、象。
+      </text>
+    </view>
+
+    <view class="title">
+      <view class="quare"></view>
+      <text class="titleTxt">&nbsp;制作工艺</text>
+    </view>
+    <view class="textContainer">
+    <view class="txt">&nbsp;&nbsp;&nbsp;&nbsp;高跷走兽演员所扮演的角色原型皆取自上述故事和神话传说。人物、走兽的扮装、艺术呈现也与故事紧密相连，所以演员的着装、道具不是随意而为的，而要根据特定角色进行装扮。省级代表性传承人王成林介绍: 在以前，高跷走兽所用的服装、道具并不专门购置，而是借助庙会期间请戏班唱戏的便利，由戏班提供或向各家各户借用。高跷走兽艺人的化妆也由戏班的化妆师傅负责。如今每个高跷走兽的表演者都有 一套专用的行头，是专门购买的，人物角色也由专人化妆，兽头都是民间艺人们亲手制作的。
+    </view>
+    </view>
+  </scroll-view>
+</view>

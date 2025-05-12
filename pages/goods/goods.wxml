@@ -1,0 +1,29 @@
+<!--pages/goods/goods.wxml-->
+<page-meta>
+  <navigation-bar class="nav-bar" title="{{feed.title}}" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <scroll-view  
+    class="page"
+    enable-flex="true" 
+    scroll-y
+    enhanced="true"
+    scroll-with-animation="true"
+    show-scrollbar="false"
+    type="custom"
+    enable-passive="true">
+      <swiper circular="true" class="swiperContainer">
+        <swiper-item wx:for="{{feed.image}}"wx:for-item="item"wx:key="idx" >
+          <view class="goods-img">
+            <image src="{{item}}" mode="heightFix" class="img"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+      <view class="goods-info">
+        <text class="goods-title">{{feed.title}}</text>
+        <text class="goods-price">￥{{feed.price}}</text>
+      </view>
+  </scroll-view>
+</view>

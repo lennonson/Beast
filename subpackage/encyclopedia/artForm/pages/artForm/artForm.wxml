@@ -1,0 +1,27 @@
+<page-meta>
+  <navigation-bar class="nav-bar" title="走兽故事" back="{{true}}">
+  </navigation-bar>
+</page-meta>
+
+<view class="outer">
+  <view class="page" bindtouchstart="onTouchStart" bindtouchend="onTouchEnd">
+    <view class="foreword animation"style="{{foreword}}">
+      <view class="content">   
+        &nbsp;&nbsp;&nbsp;古时流传下来的走兽造型奇异，形态逼真。这些走兽的造型有来自现实生活中的，更多的是古代图腾崇拜的产物，还有一些来源于神话 传说或历史故事。走的典故传说韵味悠长，一个走兽即是一个美丽而古老的故事，演绎着一段传奇。这些典故表达了劳动人民的一个朴素观念，那就是“正义必将战胜邪恶”。常见的走兽有：貅狼、麒麟、貘、独角兽、鳌、黑狸虎等。
+      </view>
+      <view class="arrow_up" bindtap="onArrowTap">
+        <image src="https://beast-jian.oss-cn-beijing.aliyuncs.com/icon/up.png" mode="aspectFill"></image>
+      </view>
+    </view>
+    <view class="matter animation"style="{{matter}}">
+      <view class="divContainer">
+        <block wx:for="{{feed}}" wx:for-index="idx" wx:key="idx" wx:for-item="item">
+          <navigator url="/pages/matter/matter?feedIndex={{idx}}" class="grid" bind:animationend="onArrowTap">
+            <image mode="aspectFill" src="{{item.img}}"></image>
+            <text style="font-family:'FangSong', Courier, monospace;">{{item.brief}}</text>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>

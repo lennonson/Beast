@@ -1,0 +1,34 @@
+/* pages/AR/AR.wxss */
+.cover-view.controller {
+  position: fixed;
+  bottom: 20%;
+  width: 100vw;
+  height: 180rpx;
+  background-color: #977049;
+  z-index: 1000; /* 虽然不影响，但保留以防其他层次 */
+}
+.bar {
+  margin-top: 5rpx;
+  width: 100%;
+  height: 410rpx;
+  background-color: #977049;
+}
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 360rpx;
+  width: 300rpx;
+  margin: 25rpx 0 25rpx 25rpx;
+  background-color: rgba(236, 223, 198, 0.527);
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 75%;
+}
+.name {
+  margin-top: 18rpx;
+  font-size: 33rpx;
+}
